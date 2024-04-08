@@ -1,4 +1,4 @@
-module github.com/aitoehigie/steampipe-plugin-stripe
+module github.com/aitoehigieu/steampipe-plugin-stripe
 
 go 1.21
 
