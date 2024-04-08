@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/aitoehigie/steampipe-plugin-stripe/stripe"
 	"github.com/turbot/steampipe-plugin-sdk/v5/plugin"
-	"github.com/turbot/steampipe-plugin-stripe/stripe"
 )
 
 func main() {
