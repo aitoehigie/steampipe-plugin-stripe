@@ -26,6 +26,7 @@ func Plugin(ctx context.Context) *plugin.Plugin {
 			"stripe_product":           tableStripeProduct(ctx),
 			"stripe_subscription":      tableStripeSubscription(ctx),
 			"stripe_subscription_item": tableStripeSubscriptionItem(ctx),
+			"stripe_prices":            tableStripePrices(ctx),
 		},
 	}
 	return p

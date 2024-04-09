@@ -5,6 +5,7 @@ go 1.21
 require (
 	github.com/stripe/stripe-go/v76 v76.0.0
 	github.com/turbot/steampipe-plugin-sdk/v5 v5.8.0
+	go.riyazali.net/sqlite v0.0.0-20230816114005-832d6b745bcd
 )
 
 require (
@@ -58,6 +59,7 @@ require (
 	github.com/klauspost/compress v1.15.11 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
+	github.com/mattn/go-pointer v0.0.1 // indirect
 	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
