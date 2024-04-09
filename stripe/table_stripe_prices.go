@@ -9,7 +9,7 @@ import (
 	"github.com/turbot/steampipe-plugin-sdk/v5/plugin/transform"
 )
 
-func tablePrices(ctx context.Context) *plugin.Table {
+func tableStripePrices(ctx context.Context) *plugin.Table {
 	return &plugin.Table{
 		Name:        "stripe_prices",
 		Description: "Prices in Stripe represent the unit cost for a product, specifying the amount, currency, and billing frequency.",
